@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
+.footer{
+    color: #fff;
+    background-color: #333;
+    min-height: 50vh;
+    padding: 2%;
+}
+.subFooter{
+    display: flex;
+    width :100%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #fff;
+    justify-content: space-around;
+}
+.subFooter div{
+    width: 30%;
+}
+.subFooter div p{
+    margin-top: 4%;
+}
+
+.connect a{
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 2%;
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    text-decoration: none;
+}
+form{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    margin: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: inline-flex;
+
+    color:rgb(0, 0, 0) ;
+    flex-direction: column;
+}
+form h1 {
+    display: block;
+}
+form div{
+    /* height: 50%; */
+    display: inline-flex;
+    margin-top: 1%;
+}
+select {
+    width: 40%;
+    padding: 1%;
+    height: 5vh;
+    margin-top: 3.3%;
+    border: 1px solid black;
+}
+.inputs{
+    padding: 2%;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 2%;
+    
+}
+[type='checkbox']{
+    width: 30%;
+}
+[type='submit']{
+    width: 30%;
+    padding: 1%;
+    height: 5vh;
+    background-color: gold;
+    transition: 1s all ease-in-out;
+    border: 1px solid gold;
+    border-radius: 5px;
+    margin: auto;
+}
